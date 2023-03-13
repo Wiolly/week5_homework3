@@ -1,0 +1,188 @@
+.header_white {
+  position: absolute;
+  width: 1720px;
+  height: 151px;
+  left: 100px;
+  top: 0px;
+}
+
+.logo {
+  position: absolute;
+  left: 5.45%;
+  right: 6.36%;
+  top: 29.31%;
+  bottom: 18.96%;
+}
+
+.menu0 {
+  width: 660px;
+  height: 24px;
+  left: 502px;
+  top: 64px;
+}
+
+.menu {
+  font-family: "Jost", Times, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.studija {
+  position: absolute;
+  height: 30px;
+  left: 292px;
+  top: 282px;
+  font-family: "Jost", Times, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.ideja {
+  position: absolute;
+  height: 60px;
+  left: 292px;
+  top: 510px;
+  font-family: "Jost", Times, sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.box {
+  position: absolute;
+  width: 240px;
+  height: 60px;
+  right: 0px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.button1 {
+  font-family: "Jost", Times, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: #1a1a18;
+  text-decoration: none;
+}
+
+.box2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.button2 {
+  font-family: "Jost", Times, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  width: 240px;
+  height: 38px;
+  right: 0px;
+  top: calc(50% - 38px / 2 + 33.5px);
+}
+
+.text1 {
+  box-sizing: border-box;
+  width: 1117px;
+  height: 120px;
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+  font-family: "Jost", Times, sans-serif;
+  margin-left: 421px;
+  margin-top: 211px;
+}
+
+.text2 {
+  box-sizing: border-box;
+  width: 856px;
+  height: 240px;
+  left: 259px;
+  top: 173px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  font-family: "Jost", Times, sans-serif;
+  margin-left: 551px;
+  margin-top: 53px;
+}
+
+h1 {
+  position: absolute;
+  height: 174px;
+  width: 1000px;
+  left: 292px;
+  top: 324px;
+  font-family: "Jost", Times, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 87px;
+  color: #ffffff;
+}
+
+#glavnaja {
+  position: absolute;
+  width: 98px;
+  height: 24px;
+  left: calc(50% - 98px / 2 - 109px);
+  top: calc(50% - 24px / 2 + 0.5px);
+}
+#portfolio {
+  position: absolute;
+  width: 137px;
+  height: 24px;
+  left: calc(50% - 137px / 2 + 84.5px);
+  top: calc(50% - 24px / 2 + 0.5px);
+}
+#uslugi {
+  position: absolute;
+  width: 82px;
+  height: 24px;
+  left: calc(50% - 82px / 2 + 270px);
+  top: calc(50% - 24px / 2 + 0.5px);
+}
+#kontakti {
+  position: absolute;
+  width: 115px;
+  height: 24px;
+  left: calc(50% - 115px / 2 + 444.5px);
+  top: calc(50% - 24px / 2 + 0.5px);
+}
+
+.menu:hover {
+  text-decoration: underline;
+}
+.button1:hover {
+  text-decoration: underline;
+  color: blue;
+}
+.button2:hover {
+  text-decoration: underline;
+  color: blue;
+}
+.button1:visited {
+  color: green;
+}
+.button2:visited {
+  color: green;
+}
+a:focus {
+  background-color: darkolivegreen;
+  color: darkgoldenrod;
+}
